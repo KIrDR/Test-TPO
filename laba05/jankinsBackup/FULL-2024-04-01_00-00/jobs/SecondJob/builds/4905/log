@@ -1,0 +1,16 @@
+Started by upstream project "[8mha:////4LbCniPqSkbN+VzoyAPpNnUAVoLNenN64L2FZGCMk+jxAAAAnx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzeEgZh/az8JP3izNyCnNSAovys1OQSfQCziB+cyAAAAA==[0msimpleProject" build number [8mha:////4AhuouuvykIVNA6X5dwjBs6QwJuks1fT7MV5gtV5ulOOAAAAox+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyWEgZx/az8JP3izNyCnNSAovys1OQSfRNLM3MApnMcVcwAAAA=[0m4967
+originally caused by:
+ Started by timer
+Started by upstream project "[8mha:////4LbCniPqSkbN+VzoyAPpNnUAVoLNenN64L2FZGCMk+jxAAAAnx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzeEgZh/az8JP3izNyCnNSAovys1OQSfQCziB+cyAAAAA==[0msimpleProject" build number [8mha:////4NE2CFnk86FuclYReOShLW3DGA01CsWbP5dCpENmjkayAAAAox+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyWEgZx/az8JP3izNyCnNSAovys1OQSfRNLMwsAN26jxcwAAAA=[0m4968
+originally caused by:
+ Started by timer
+Running as SYSTEM
+Building on the built-in node in workspace C:\ProgramData\Jenkins\.jenkins\workspace\SecondJob
+[SecondJob] $ cmd /c call C:\WINDOWS\TEMP\jenkins4717471167716193569.bat
+
+C:\ProgramData\Jenkins\.jenkins\workspace\SecondJob>ECHO SECONDJOB! 
+SECONDJOB!
+
+C:\ProgramData\Jenkins\.jenkins\workspace\SecondJob>exit 0 
+Triggering a new build of [8mha:////4LCOGYPe2ZGGU0+EHTRcXEuZJX2ipD3LhuBtWkle6AY4AAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgZB/az8JP2QjMyiFFUjAxAbAKak/uvGAAAA[0mThird job
+Finished: SUCCESS

@@ -1,0 +1,8 @@
+Started by upstream project "[8mha:////4GdDoWCVKpjzu6B1t2qUA0UyU9flUER+jE7g4EW3ffi4AAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgZ+/az8JP3gVKDqFC8gCwC5YXAJxAAAAA==[0mSecondJob" build number [8mha:////4PgkNjP2VxjtZR4sxOtG6dOV3UzVf8TTokc6la6pl1izAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyWEgZh/az8JP3gVKDqFC8gy8Tc2AAAmelxesgAAAA=[0m4730
+originally caused by:
+ Started by upstream project "[8mha:////4LbCniPqSkbN+VzoyAPpNnUAVoLNenN64L2FZGCMk+jxAAAAnx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzeEgZh/az8JP3izNyCnNSAovys1OQSfQCziB+cyAAAAA==[0msimpleProject" build number [8mha:////4HMtFPxvU8RjVn0HhcEN6EF1ocSAzyoMM8vD2hBgVyA+AAAAox+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyWEgZx/az8JP3izNyCnNSAovys1OQSfRNzCwsAs26+UcwAAAA=[0m4788
+ originally caused by:
+  Started by timer
+Running as SYSTEM
+Building on the built-in node in workspace C:\ProgramData\Jenkins\.jenkins\workspace\Third job
+Finished: SUCCESS

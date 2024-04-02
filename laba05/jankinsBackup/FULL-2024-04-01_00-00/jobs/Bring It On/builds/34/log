@@ -1,0 +1,25 @@
+Started by user [8mha:////4EwaLJyy4RsrFDS8VkcKrSBqAGvgtt+a0VUgM24fQ8r7AAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAweoBn6pcWpRfrZmUWZOTnxKUWJyRkAhfNz+ccAAAA=[0mKirill_Drach
+Running as SYSTEM
+Building remotely on [8mha:////4LJnc56A+nEbGVJ6wWKjEQ8lWX6yiclaS8sjpMHDxvdJAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZ+/eT83ILSktQifT9/F9d4ACed0CHEAAAA[0mNODE_ (win11 chrome) in workspace C:\MyStudy\32\Testing\git-demo\laba05\slave\workspace\Bring It On
+The recommended git tool is: NONE
+No credentials specified
+ > C:\Program Files\Git\cmd\git.exe rev-parse --resolve-git-dir C:\MyStudy\32\Testing\git-demo\laba05\slave\workspace\Bring It On\.git # timeout=10
+Fetching changes from the remote Git repository
+ > C:\Program Files\Git\cmd\git.exe config remote.origin.url https://github.com/kss7/UdemyFlaskAppUTest.git # timeout=10
+Fetching upstream changes from https://github.com/kss7/UdemyFlaskAppUTest.git
+ > C:\Program Files\Git\cmd\git.exe --version # timeout=10
+ > git --version # 'git version 2.40.0.windows.1'
+ > C:\Program Files\Git\cmd\git.exe fetch --tags --force --progress -- https://github.com/kss7/UdemyFlaskAppUTest.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > C:\Program Files\Git\cmd\git.exe rev-parse "refs/remotes/origin/master^{commit}" # timeout=10
+Checking out Revision 9e51934ccda8bf45d7752022f2b26cdece00ed5e (refs/remotes/origin/master)
+ > C:\Program Files\Git\cmd\git.exe config core.sparsecheckout # timeout=10
+ > C:\Program Files\Git\cmd\git.exe checkout -f 9e51934ccda8bf45d7752022f2b26cdece00ed5e # timeout=10
+Commit message: "added jenkins job script"
+First time build. Skipping changelog.
+Archiving artifacts
+[Cobertura] Publishing Cobertura coverage report...
+
+[Cobertura] No coverage results were found using the pattern 'Java/target/site/cobertura/coverage.xml' relative to 'C:\MyStudy\32\Testing\git-demo\laba05\slave\workspace\Bring It On'.  Did you enter a pattern relative to the correct directory?  Did you generate the XML report(s) for Cobertura?
+
+ERROR: Step ‘Publish Cobertura Coverage Report’ failed: [Cobertura] No coverage results were found using the pattern 'Java/target/site/cobertura/coverage.xml' relative to 'C:\MyStudy\32\Testing\git-demo\laba05\slave\workspace\Bring It On'.  Did you enter a pattern relative to the correct directory?  Did you generate the XML report(s) for Cobertura?
+Finished: FAILURE

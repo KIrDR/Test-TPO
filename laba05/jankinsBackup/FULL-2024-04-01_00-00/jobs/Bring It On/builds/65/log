@@ -1,0 +1,72 @@
+Started by user [8mha:////4EwaLJyy4RsrFDS8VkcKrSBqAGvgtt+a0VUgM24fQ8r7AAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAweoBn6pcWpRfrZmUWZOTnxKUWJyRkAhfNz+ccAAAA=[0mKirill_Drach
+Running as SYSTEM
+Building remotely on [8mha:////4LJnc56A+nEbGVJ6wWKjEQ8lWX6yiclaS8sjpMHDxvdJAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZ+/eT83ILSktQifT9/F9d4ACed0CHEAAAA[0mNODE_ (win11 chrome) in workspace C:\MyStudy\32\Testing\git-demo\laba05\slave\workspace\Bring It On
+Installing JDK jdk-9.0.4-oth-JPR
+Downloading JDK from https://download.oracle.com/otn/java/jdk/9.0.4+11/c2514751926b4512b076cc82f959763f/jdk-9.0.4_windows-x64_bin.exe
+java.io.IOException: Failed to request https://download.oracle.com/otn/java/jdk/9.0.4+11/c2514751926b4512b076cc82f959763f/jdk-9.0.4_windows-x64_bin.exe exit code=403
+	at hudson.tools.JDKInstaller.locate(JDKInstaller.java:515)
+	at hudson.tools.JDKInstaller.performInstallation(JDKInstaller.java:150)
+	at hudson.tools.InstallerTranslator.getToolHome(InstallerTranslator.java:70)
+	at hudson.tools.ToolLocationNodeProperty.getToolHome(ToolLocationNodeProperty.java:109)
+	at hudson.tools.ToolInstallation.translateFor(ToolInstallation.java:221)
+	at hudson.model.JDK.forNode(JDK.java:150)
+	at hudson.model.AbstractProject.getEnvironment(AbstractProject.java:341)
+	at hudson.model.Run.getEnvironment(Run.java:2426)
+	at hudson.model.AbstractBuild.getEnvironment(AbstractBuild.java:957)
+	at hudson.plugins.git.GitSCM.checkout(GitSCM.java:1293)
+	at hudson.scm.SCM.checkout(SCM.java:540)
+	at hudson.model.AbstractProject.checkout(AbstractProject.java:1248)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.defaultCheckout(AbstractBuild.java:649)
+	at jenkins.scm.SCMCheckoutStrategy.checkout(SCMCheckoutStrategy.java:85)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.run(AbstractBuild.java:521)
+	at hudson.model.Run.execute(Run.java:1893)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:44)
+	at hudson.model.ResourceController.execute(ResourceController.java:101)
+	at hudson.model.Executor.run(Executor.java:442)
+Installing JDK jdk-9.0.4-oth-JPR
+Downloading JDK from https://download.oracle.com/otn/java/jdk/9.0.4+11/c2514751926b4512b076cc82f959763f/jdk-9.0.4_windows-x64_bin.exe
+ERROR: Step ‘Archive the artifacts’ aborted due to exception: 
+java.io.IOException: Failed to request https://download.oracle.com/otn/java/jdk/9.0.4+11/c2514751926b4512b076cc82f959763f/jdk-9.0.4_windows-x64_bin.exe exit code=403
+	at hudson.tools.JDKInstaller.locate(JDKInstaller.java:515)
+	at hudson.tools.JDKInstaller.performInstallation(JDKInstaller.java:150)
+	at hudson.tools.InstallerTranslator.getToolHome(InstallerTranslator.java:70)
+	at hudson.tools.ToolLocationNodeProperty.getToolHome(ToolLocationNodeProperty.java:109)
+	at hudson.tools.ToolInstallation.translateFor(ToolInstallation.java:221)
+	at hudson.model.JDK.forNode(JDK.java:150)
+	at hudson.model.AbstractProject.getEnvironment(AbstractProject.java:341)
+	at hudson.model.Run.getEnvironment(Run.java:2426)
+	at hudson.model.AbstractBuild.getEnvironment(AbstractBuild.java:957)
+	at hudson.tasks.BuildStepCompatibilityLayer.perform(BuildStepCompatibilityLayer.java:80)
+	at hudson.tasks.BuildStepMonitor$1.perform(BuildStepMonitor.java:20)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.perform(AbstractBuild.java:818)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.performAllBuildSteps(AbstractBuild.java:767)
+	at hudson.model.Build$BuildExecution.post2(Build.java:179)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.post(AbstractBuild.java:711)
+	at hudson.model.Run.execute(Run.java:1916)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:44)
+	at hudson.model.ResourceController.execute(ResourceController.java:101)
+	at hudson.model.Executor.run(Executor.java:442)
+Installing JDK jdk-9.0.4-oth-JPR
+Downloading JDK from https://download.oracle.com/otn/java/jdk/9.0.4+11/c2514751926b4512b076cc82f959763f/jdk-9.0.4_windows-x64_bin.exe
+ERROR: Step ‘Publish Cobertura Coverage Report’ aborted due to exception: 
+java.io.IOException: Failed to request https://download.oracle.com/otn/java/jdk/9.0.4+11/c2514751926b4512b076cc82f959763f/jdk-9.0.4_windows-x64_bin.exe exit code=403
+	at hudson.tools.JDKInstaller.locate(JDKInstaller.java:515)
+	at hudson.tools.JDKInstaller.performInstallation(JDKInstaller.java:150)
+	at hudson.tools.InstallerTranslator.getToolHome(InstallerTranslator.java:70)
+	at hudson.tools.ToolLocationNodeProperty.getToolHome(ToolLocationNodeProperty.java:109)
+	at hudson.tools.ToolInstallation.translateFor(ToolInstallation.java:221)
+	at hudson.model.JDK.forNode(JDK.java:150)
+	at hudson.model.AbstractProject.getEnvironment(AbstractProject.java:341)
+	at hudson.model.Run.getEnvironment(Run.java:2426)
+	at hudson.model.AbstractBuild.getEnvironment(AbstractBuild.java:957)
+	at hudson.tasks.BuildStepCompatibilityLayer.perform(BuildStepCompatibilityLayer.java:80)
+	at hudson.tasks.BuildStepMonitor$1.perform(BuildStepMonitor.java:20)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.perform(AbstractBuild.java:818)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.performAllBuildSteps(AbstractBuild.java:767)
+	at hudson.model.Build$BuildExecution.post2(Build.java:179)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.post(AbstractBuild.java:711)
+	at hudson.model.Run.execute(Run.java:1916)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:44)
+	at hudson.model.ResourceController.execute(ResourceController.java:101)
+	at hudson.model.Executor.run(Executor.java:442)
+Finished: FAILURE

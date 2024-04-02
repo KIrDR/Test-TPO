@@ -1,0 +1,19 @@
+Started by user [8mha:////4EwaLJyy4RsrFDS8VkcKrSBqAGvgtt+a0VUgM24fQ8r7AAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAweoBn6pcWpRfrZmUWZOTnxKUWJyRkAhfNz+ccAAAA=[0mKirill_Drach
+Running as SYSTEM
+Building in workspace C:\ProgramData\Jenkins\.jenkins\workspace\GitHubJob
+The recommended git tool is: NONE
+No credentials specified
+ > C:\Program Files\Git\cmd\git.exe rev-parse --resolve-git-dir C:\ProgramData\Jenkins\.jenkins\workspace\GitHubJob\.git # timeout=10
+Fetching changes from the remote Git repository
+ > C:\Program Files\Git\cmd\git.exe config remote.origin.url https://github.com/KIrDR/Test-TPO.git # timeout=10
+Fetching upstream changes from https://github.com/KIrDR/Test-TPO.git
+ > C:\Program Files\Git\cmd\git.exe --version # timeout=10
+ > git --version # 'git version 2.40.0.windows.1'
+ > C:\Program Files\Git\cmd\git.exe fetch --tags --force --progress -- https://github.com/KIrDR/Test-TPO.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > C:\Program Files\Git\cmd\git.exe rev-parse "refs/remotes/origin/main^{commit}" # timeout=10
+Checking out Revision f65bb5c2f258368edf76d1c0be9fb010b5962b7b (refs/remotes/origin/main)
+ > C:\Program Files\Git\cmd\git.exe config core.sparsecheckout # timeout=10
+ > C:\Program Files\Git\cmd\git.exe checkout -f f65bb5c2f258368edf76d1c0be9fb010b5962b7b # timeout=10
+Commit message: "Laba 04 complited"
+First time build. Skipping changelog.
+Finished: SUCCESS

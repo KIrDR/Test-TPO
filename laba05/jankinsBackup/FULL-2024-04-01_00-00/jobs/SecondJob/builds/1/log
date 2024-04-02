@@ -1,0 +1,10 @@
+Started by user [8mha:////4EwaLJyy4RsrFDS8VkcKrSBqAGvgtt+a0VUgM24fQ8r7AAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAweoBn6pcWpRfrZmUWZOTnxKUWJyRkAhfNz+ccAAAA=[0mKirill_Drach
+Running as SYSTEM
+Building in workspace C:\ProgramData\Jenkins\.jenkins\workspace\SecondJob
+[SecondJob] $ cmd /c call C:\WINDOWS\TEMP\jenkins1107458250465621010.bat
+
+C:\ProgramData\Jenkins\.jenkins\workspace\SecondJob>ECHO SECONDJOB! 
+SECONDJOB!
+
+C:\ProgramData\Jenkins\.jenkins\workspace\SecondJob>exit 0 
+Finished: SUCCESS

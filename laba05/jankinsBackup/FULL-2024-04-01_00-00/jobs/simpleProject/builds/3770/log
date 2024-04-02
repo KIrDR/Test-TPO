@@ -1,0 +1,29 @@
+Started by timer
+Running as SYSTEM
+Building on the built-in node in workspace C:\ProgramData\Jenkins\.jenkins\workspace\simpleProject
+Installing JDK jdk-9.0.4-oth-JPR
+Downloading JDK from https://download.oracle.com/otn/java/jdk/9.0.4+11/c2514751926b4512b076cc82f959763f/jdk-9.0.4_windows-x64_bin.exe
+FATAL: command execution failed
+java.io.IOException: Failed to request https://download.oracle.com/otn/java/jdk/9.0.4+11/c2514751926b4512b076cc82f959763f/jdk-9.0.4_windows-x64_bin.exe exit code=403
+	at hudson.tools.JDKInstaller.locate(JDKInstaller.java:515)
+	at hudson.tools.JDKInstaller.performInstallation(JDKInstaller.java:150)
+	at hudson.tools.InstallerTranslator.getToolHome(InstallerTranslator.java:70)
+	at hudson.tools.ToolLocationNodeProperty.getToolHome(ToolLocationNodeProperty.java:109)
+	at hudson.tools.ToolInstallation.translateFor(ToolInstallation.java:221)
+	at hudson.model.JDK.forNode(JDK.java:150)
+	at hudson.model.AbstractProject.getEnvironment(AbstractProject.java:341)
+	at hudson.model.Run.getEnvironment(Run.java:2426)
+	at hudson.model.AbstractBuild.getEnvironment(AbstractBuild.java:957)
+	at hudson.tasks.CommandInterpreter.perform(CommandInterpreter.java:128)
+	at hudson.tasks.CommandInterpreter.perform(CommandInterpreter.java:92)
+	at hudson.tasks.BuildStepMonitor$1.perform(BuildStepMonitor.java:20)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.perform(AbstractBuild.java:818)
+	at hudson.model.Build$BuildExecution.build(Build.java:199)
+	at hudson.model.Build$BuildExecution.doRun(Build.java:164)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.run(AbstractBuild.java:526)
+	at hudson.model.Run.execute(Run.java:1893)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:44)
+	at hudson.model.ResourceController.execute(ResourceController.java:101)
+	at hudson.model.Executor.run(Executor.java:442)
+Build step 'Execute Windows batch command' marked build as failure
+Finished: FAILURE

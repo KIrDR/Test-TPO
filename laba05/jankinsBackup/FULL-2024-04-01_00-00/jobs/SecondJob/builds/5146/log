@@ -1,0 +1,13 @@
+Started by upstream project "[8mha:////4LbCniPqSkbN+VzoyAPpNnUAVoLNenN64L2FZGCMk+jxAAAAnx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzeEgZh/az8JP3izNyCnNSAovys1OQSfQCziB+cyAAAAA==[0msimpleProject" build number [8mha:////4IvQYYJ6XJDFt+gPiQTKEQEBOSHE8otM+qPD0u5DS/F/AAAAox+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyWEgZx/az8JP3izNyCnNSAovys1OQSfVMjQyMAapne3swAAAA=[0m5212
+originally caused by:
+ Started by timer
+Running as SYSTEM
+Building on the built-in node in workspace C:\ProgramData\Jenkins\.jenkins\workspace\SecondJob
+[SecondJob] $ cmd /c call C:\WINDOWS\TEMP\jenkins6033865840673707596.bat
+
+C:\ProgramData\Jenkins\.jenkins\workspace\SecondJob>ECHO SECONDJOB! 
+SECONDJOB!
+
+C:\ProgramData\Jenkins\.jenkins\workspace\SecondJob>exit 0 
+Triggering a new build of [8mha:////4LCOGYPe2ZGGU0+EHTRcXEuZJX2ipD3LhuBtWkle6AY4AAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgZB/az8JP2QjMyiFFUjAxAbAKak/uvGAAAA[0mThird job
+Finished: SUCCESS

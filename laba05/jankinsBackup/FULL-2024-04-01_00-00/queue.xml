@@ -1,0 +1,56 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<hudson.model.Queue_-State>
+  <counter>17127</counter>
+  <items>
+    <hudson.model.Queue_-WaitingItem>
+      <actions>
+        <hudson.model.CauseAction>
+          <causeBag class="linked-hash-map">
+            <entry>
+              <hudson.model.Cause_-UpstreamCause>
+                <upstreamProject>SecondJob</upstreamProject>
+                <upstreamUrl>job/SecondJob/</upstreamUrl>
+                <upstreamBuild>5690</upstreamBuild>
+                <upstreamCauses>
+                  <hudson.model.Cause_-UpstreamCause>
+                    <upstreamProject>simpleProject</upstreamProject>
+                    <upstreamUrl>job/simpleProject/</upstreamUrl>
+                    <upstreamBuild>5756</upstreamBuild>
+                    <upstreamCauses>
+                      <hudson.triggers.TimerTrigger_-TimerTriggerCause/>
+                    </upstreamCauses>
+                  </hudson.model.Cause_-UpstreamCause>
+                </upstreamCauses>
+              </hudson.model.Cause_-UpstreamCause>
+              <int>1</int>
+            </entry>
+          </causeBag>
+        </hudson.model.CauseAction>
+      </actions>
+      <id>17127</id>
+      <task class="hudson.model.FreeStyleProject">Third job</task>
+      <inQueueSince>1711918807309</inQueueSince>
+      <timestamp>
+        <time>1711918812309</time>
+        <timezone>Europe/Minsk</timezone>
+      </timestamp>
+    </hudson.model.Queue_-WaitingItem>
+    <hudson.model.Queue_-BuildableItem>
+      <actions>
+        <hudson.model.CauseAction>
+          <causeBag class="linked-hash-map">
+            <entry>
+              <hudson.triggers.TimerTrigger_-TimerTriggerCause/>
+              <int>1593</int>
+            </entry>
+          </causeBag>
+        </hudson.model.CauseAction>
+      </actions>
+      <id>11431</id>
+      <task class="hudson.model.FreeStyleProject">Bring It On</task>
+      <inQueueSince>1711430456653</inQueueSince>
+      <buildableStartMilliseconds>1711430456654</buildableStartMilliseconds>
+      <isPending>false</isPending>
+    </hudson.model.Queue_-BuildableItem>
+  </items>
+</hudson.model.Queue_-State>

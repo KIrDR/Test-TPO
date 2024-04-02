@@ -1,87 +1,143 @@
-мар. 19, 2024 2:29:42 AM hudson.remoting.Launcher createEngine
+мар. 19, 2024 2:32:40 AM hudson.remoting.Launcher createEngine
 INFO: Setting up agent: NODE_
-мар. 19, 2024 2:29:42 AM hudson.remoting.Engine startEngine
+мар. 19, 2024 2:32:40 AM hudson.remoting.Engine startEngine
 INFO: Using Remoting version: 3206.vb_15dcf73f6a_9
-мар. 19, 2024 2:29:42 AM org.jenkinsci.remoting.engine.WorkDirManager initializeWorkDir
+мар. 19, 2024 2:32:40 AM org.jenkinsci.remoting.engine.WorkDirManager initializeWorkDir
 INFO: Using C:\MyStudy\32\Testing\git-demo\laba05\slave\remoting as a remoting work directory
-мар. 19, 2024 2:29:42 AM hudson.remoting.Launcher$CuiListener status
-INFO: Locating server among [http://localhost:8080/]
-мар. 19, 2024 2:29:42 AM hudson.remoting.Launcher$CuiListener status
-INFO: Could not locate server among [http://localhost:8080/]; waiting 10 seconds before retry
-java.io.IOException: Failed to connect to http://localhost:8080/tcpSlaveAgentListener/: Connection refused: no further information
-	at org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver.resolve(JnlpAgentEndpointResolver.java:217)
-	at hudson.remoting.Engine.innerRun(Engine.java:809)
-	at hudson.remoting.Engine.run(Engine.java:563)
-Caused by: java.net.ConnectException: Connection refused: no further information
-	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
-	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:682)
-	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:542)
-	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:592)
-	at java.base/java.net.Socket.connect(Socket.java:751)
-	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:178)
-	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:531)
-	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:636)
-	at java.base/sun.net.www.http.HttpClient.<init>(HttpClient.java:280)
-	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:386)
-	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:408)
-	at java.base/sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1304)
-	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1237)
-	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1123)
-	at java.base/sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:1052)
-	at org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver.resolve(JnlpAgentEndpointResolver.java:214)
-	... 2 more
+мар. 19, 2024 2:32:40 AM hudson.remoting.Launcher$CuiListener status
+INFO: Locating server among [http://localhost:8081/]
+мар. 19, 2024 2:32:40 AM org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver resolve
+INFO: Remoting server accepts the following protocols: [JNLP4-connect, Ping]
+мар. 19, 2024 2:32:40 AM hudson.remoting.Launcher$CuiListener status
+INFO: Agent discovery successful
+  Agent address: localhost
+  Agent port:    58719
+  Identity:      c8:9c:94:63:bc:01:1d:f6:fa:40:94:84:9d:6d:bb:e0
+мар. 19, 2024 2:32:40 AM hudson.remoting.Launcher$CuiListener status
+INFO: Handshaking
+мар. 19, 2024 2:32:40 AM hudson.remoting.Launcher$CuiListener status
+INFO: Connecting to localhost:58719
+мар. 19, 2024 2:32:40 AM hudson.remoting.Launcher$CuiListener status
+INFO: Server reports protocol JNLP4-connect-proxy not supported, skipping
+мар. 19, 2024 2:32:40 AM hudson.remoting.Launcher$CuiListener status
+INFO: Trying protocol: JNLP4-connect
+мар. 19, 2024 2:32:40 AM org.jenkinsci.remoting.protocol.impl.BIONetworkLayer$Reader run
+INFO: Waiting for ProtocolStack to start.
+мар. 19, 2024 2:32:40 AM hudson.remoting.Launcher$CuiListener status
+INFO: Remote identity confirmed: c8:9c:94:63:bc:01:1d:f6:fa:40:94:84:9d:6d:bb:e0
+мар. 19, 2024 2:32:41 AM hudson.remoting.Launcher$CuiListener status
+INFO: Connected
+мар. 19, 2024 3:44:09 AM hudson.remoting.Launcher$CuiListener status
+INFO: Terminated
+мар. 19, 2024 3:44:19 AM hudson.remoting.Launcher$CuiListener status
+INFO: Performing onReconnect operation.
+мар. 19, 2024 3:44:19 AM hudson.remoting.Launcher$CuiListener status
+INFO: onReconnect operation completed.
+мар. 19, 2024 3:44:19 AM hudson.remoting.Launcher$CuiListener status
+INFO: Locating server among [http://localhost:8081/]
+мар. 19, 2024 3:44:19 AM org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver resolve
+INFO: Remoting server accepts the following protocols: [JNLP4-connect, Ping]
+мар. 19, 2024 3:44:19 AM hudson.remoting.Launcher$CuiListener status
+INFO: Agent discovery successful
+  Agent address: localhost
+  Agent port:    58719
+  Identity:      c8:9c:94:63:bc:01:1d:f6:fa:40:94:84:9d:6d:bb:e0
+мар. 19, 2024 3:44:19 AM hudson.remoting.Launcher$CuiListener status
+INFO: Handshaking
+мар. 19, 2024 3:44:19 AM hudson.remoting.Launcher$CuiListener status
+INFO: Connecting to localhost:58719
+мар. 19, 2024 3:44:19 AM hudson.remoting.Launcher$CuiListener status
+INFO: Server reports protocol JNLP4-connect-proxy not supported, skipping
+мар. 19, 2024 3:44:19 AM hudson.remoting.Launcher$CuiListener status
+INFO: Trying protocol: JNLP4-connect
+мар. 19, 2024 3:44:19 AM org.jenkinsci.remoting.protocol.impl.BIONetworkLayer$Reader run
+INFO: Waiting for ProtocolStack to start.
+мар. 19, 2024 3:44:19 AM hudson.remoting.Launcher$CuiListener status
+INFO: Remote identity confirmed: c8:9c:94:63:bc:01:1d:f6:fa:40:94:84:9d:6d:bb:e0
+мар. 19, 2024 3:44:19 AM hudson.remoting.Launcher$CuiListener status
+INFO: Connected
+мар. 19, 2024 3:44:32 AM org.jvnet.winp.Native loadByUrl
+WARNING: Failed to load DLL from static location
+java.lang.UnsatisfiedLinkError: Native Library C:\MyStudy\32\Testing\git-demo\laba05\slave\remoting\jarCache\ED\winp.x64.BFFE30B3B50581290B1866EF8D48C609.dll already loaded in another classloader
+	at java.base/jdk.internal.loader.NativeLibraries.loadLibrary(NativeLibraries.java:167)
+	at java.base/jdk.internal.loader.NativeLibraries.loadLibrary(NativeLibraries.java:139)
+	at java.base/java.lang.ClassLoader.loadLibrary(ClassLoader.java:2418)
+	at java.base/java.lang.Runtime.load0(Runtime.java:852)
+	at java.base/java.lang.System.load(System.java:2021)
+	at org.jvnet.winp.Native.loadDll(Native.java:253)
+	at org.jvnet.winp.Native.loadByUrl(Native.java:173)
+	at org.jvnet.winp.Native.load(Native.java:135)
+	at org.jvnet.winp.Native.<clinit>(Native.java:102)
+	at org.jvnet.winp.WinProcess.enableDebugPrivilege(WinProcess.java:230)
+	at hudson.util.ProcessTree$Windows.<clinit>(ProcessTree.java:725)
+	at hudson.util.ProcessTree.get(ProcessTree.java:462)
+	at hudson.Launcher$RemoteLauncher$KillTask.call(Launcher.java:1165)
+	at hudson.Launcher$RemoteLauncher$KillTask.call(Launcher.java:1155)
+	at hudson.remoting.UserRequest.perform(UserRequest.java:211)
+	at hudson.remoting.UserRequest.perform(UserRequest.java:54)
+	at hudson.remoting.Request$2.run(Request.java:377)
+	at hudson.remoting.InterceptingExecutorService.lambda$wrap$0(InterceptingExecutorService.java:78)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at hudson.remoting.Engine$1.lambda$newThread$0(Engine.java:137)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
 
-мар. 19, 2024 2:29:52 AM hudson.remoting.Launcher$CuiListener status
-INFO: Locating server among [http://localhost:8080/]
-мар. 19, 2024 2:29:52 AM hudson.remoting.Launcher$CuiListener status
-INFO: Could not locate server among [http://localhost:8080/]; waiting 10 seconds before retry
-java.io.IOException: Failed to connect to http://localhost:8080/tcpSlaveAgentListener/: Connection refused: no further information
-	at org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver.resolve(JnlpAgentEndpointResolver.java:217)
-	at hudson.remoting.Engine.innerRun(Engine.java:809)
-	at hudson.remoting.Engine.run(Engine.java:563)
-Caused by: java.net.ConnectException: Connection refused: no further information
-	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
-	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:682)
-	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:542)
-	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:592)
-	at java.base/java.net.Socket.connect(Socket.java:751)
-	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:178)
-	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:531)
-	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:636)
-	at java.base/sun.net.www.http.HttpClient.<init>(HttpClient.java:280)
-	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:386)
-	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:408)
-	at java.base/sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1304)
-	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1237)
-	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1123)
-	at java.base/sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:1052)
-	at org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver.resolve(JnlpAgentEndpointResolver.java:214)
-	... 2 more
-
-мар. 19, 2024 2:30:02 AM hudson.remoting.Launcher$CuiListener status
-INFO: Locating server among [http://localhost:8080/]
-мар. 19, 2024 2:30:02 AM hudson.remoting.Launcher$CuiListener status
-INFO: Could not locate server among [http://localhost:8080/]; waiting 10 seconds before retry
-java.io.IOException: Failed to connect to http://localhost:8080/tcpSlaveAgentListener/: Connection refused: no further information
-	at org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver.resolve(JnlpAgentEndpointResolver.java:217)
-	at hudson.remoting.Engine.innerRun(Engine.java:809)
-	at hudson.remoting.Engine.run(Engine.java:563)
-Caused by: java.net.ConnectException: Connection refused: no further information
-	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
-	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:682)
-	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:542)
-	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:592)
-	at java.base/java.net.Socket.connect(Socket.java:751)
-	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:178)
-	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:531)
-	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:636)
-	at java.base/sun.net.www.http.HttpClient.<init>(HttpClient.java:280)
-	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:386)
-	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:408)
-	at java.base/sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1304)
-	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1237)
-	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1123)
-	at java.base/sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:1052)
-	at org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver.resolve(JnlpAgentEndpointResolver.java:214)
-	... 2 more
+мар. 19, 2024 7:37:17 AM hudson.remoting.Launcher$CuiListener status
+INFO: Terminated
+мар. 19, 2024 7:37:17 AM hudson.remoting.Request$2 run
+INFO: Failed to send back a reply to the request UserRequest:hudson.FilePath$CallableWith@78d54a8d: hudson.remoting.ChannelClosedException: Channel "hudson.remoting.Channel@cfd077c:JNLP4-connect connection to localhost/127.0.0.1:58719": channel is already closed
+мар. 19, 2024 7:37:27 AM hudson.remoting.Launcher$CuiListener status
+INFO: Performing onReconnect operation.
+мар. 19, 2024 7:37:27 AM hudson.remoting.Launcher$CuiListener status
+INFO: onReconnect operation completed.
+мар. 19, 2024 7:37:27 AM hudson.remoting.Launcher$CuiListener status
+INFO: Locating server among [http://localhost:8081/]
+мар. 19, 2024 7:37:27 AM org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver resolve
+INFO: Remoting server accepts the following protocols: [JNLP4-connect, Ping]
+мар. 19, 2024 7:37:27 AM hudson.remoting.Launcher$CuiListener status
+INFO: Agent discovery successful
+  Agent address: localhost
+  Agent port:    58719
+  Identity:      c8:9c:94:63:bc:01:1d:f6:fa:40:94:84:9d:6d:bb:e0
+мар. 19, 2024 7:37:27 AM hudson.remoting.Launcher$CuiListener status
+INFO: Handshaking
+мар. 19, 2024 7:37:27 AM hudson.remoting.Launcher$CuiListener status
+INFO: Connecting to localhost:58719
+мар. 19, 2024 7:37:27 AM hudson.remoting.Launcher$CuiListener status
+INFO: Server reports protocol JNLP4-connect-proxy not supported, skipping
+мар. 19, 2024 7:37:27 AM hudson.remoting.Launcher$CuiListener status
+INFO: Trying protocol: JNLP4-connect
+мар. 19, 2024 7:37:27 AM org.jenkinsci.remoting.protocol.impl.BIONetworkLayer$Reader run
+INFO: Waiting for ProtocolStack to start.
+мар. 19, 2024 7:37:27 AM hudson.remoting.Launcher$CuiListener status
+INFO: Remote identity confirmed: c8:9c:94:63:bc:01:1d:f6:fa:40:94:84:9d:6d:bb:e0
+мар. 19, 2024 7:37:27 AM hudson.remoting.Launcher$CuiListener status
+INFO: Connected
+мар. 19, 2024 7:37:40 AM org.jvnet.winp.Native loadByUrl
+WARNING: Failed to load DLL from static location
+java.lang.UnsatisfiedLinkError: Native Library C:\MyStudy\32\Testing\git-demo\laba05\slave\remoting\jarCache\ED\winp.x64.BFFE30B3B50581290B1866EF8D48C609.dll already loaded in another classloader
+	at java.base/jdk.internal.loader.NativeLibraries.loadLibrary(NativeLibraries.java:167)
+	at java.base/jdk.internal.loader.NativeLibraries.loadLibrary(NativeLibraries.java:139)
+	at java.base/java.lang.ClassLoader.loadLibrary(ClassLoader.java:2418)
+	at java.base/java.lang.Runtime.load0(Runtime.java:852)
+	at java.base/java.lang.System.load(System.java:2021)
+	at org.jvnet.winp.Native.loadDll(Native.java:253)
+	at org.jvnet.winp.Native.loadByUrl(Native.java:173)
+	at org.jvnet.winp.Native.load(Native.java:135)
+	at org.jvnet.winp.Native.<clinit>(Native.java:102)
+	at org.jvnet.winp.WinProcess.enableDebugPrivilege(WinProcess.java:230)
+	at hudson.util.ProcessTree$Windows.<clinit>(ProcessTree.java:725)
+	at hudson.util.ProcessTree.get(ProcessTree.java:462)
+	at hudson.Launcher$RemoteLauncher$KillTask.call(Launcher.java:1165)
+	at hudson.Launcher$RemoteLauncher$KillTask.call(Launcher.java:1155)
+	at hudson.remoting.UserRequest.perform(UserRequest.java:211)
+	at hudson.remoting.UserRequest.perform(UserRequest.java:54)
+	at hudson.remoting.Request$2.run(Request.java:377)
+	at hudson.remoting.InterceptingExecutorService.lambda$wrap$0(InterceptingExecutorService.java:78)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at hudson.remoting.Engine$1.lambda$newThread$0(Engine.java:137)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
 

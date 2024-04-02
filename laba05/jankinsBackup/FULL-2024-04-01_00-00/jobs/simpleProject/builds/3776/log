@@ -1,0 +1,44 @@
+Started by timer
+Running as SYSTEM
+Building on the built-in node in workspace C:\ProgramData\Jenkins\.jenkins\workspace\simpleProject
+Installing JDK jdk-9.0.4-oth-JPR
+Downloading JDK from https://download.oracle.com/otn/java/jdk/9.0.4+11/c2514751926b4512b076cc82f959763f/jdk-9.0.4_windows-x64_bin.exe
+Downloading -1 bytes
+Installing C:\ProgramData\Jenkins\.jenkins\tools\hudson.model.JDK\9.0.4\jdk.exe
+[9.0.4] $ C:\ProgramData\Jenkins\.jenkins\tools\hudson.model.JDK\9.0.4\jdk.exe /s ADDLOCAL="ToolsFeature" REBOOT=ReallySuppress INSTALLDIR=C:\ProgramData\Jenkins\.jenkins\tools\hudson.model.JDK\9.0.4 /L C:\ProgramData\Jenkins\.jenkins\tools\hudson.model.JDK\install2086202252834498115log
+FATAL: command execution failed
+java.io.IOException: CreateProcess error=1392, The file or directory is corrupted and unreadable
+	at java.base/java.lang.ProcessImpl.create(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:500)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:159)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1126)
+Caused: java.io.IOException: Cannot run program "C:\ProgramData\Jenkins\.jenkins\tools\hudson.model.JDK\9.0.4\jdk.exe" (in directory "C:\ProgramData\Jenkins\.jenkins\tools\hudson.model.JDK\9.0.4"): CreateProcess error=1392, The file or directory is corrupted and unreadable
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1170)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1089)
+	at hudson.Proc$LocalProc.<init>(Proc.java:252)
+	at hudson.Proc$LocalProc.<init>(Proc.java:221)
+	at hudson.Launcher$LocalLauncher.launch(Launcher.java:994)
+	at hudson.Launcher$ProcStarter.start(Launcher.java:506)
+	at hudson.Launcher$ProcStarter.join(Launcher.java:517)
+	at hudson.tools.JDKInstaller.install(JDKInstaller.java:283)
+	at hudson.tools.JDKInstaller.performInstallation(JDKInstaller.java:157)
+	at hudson.tools.InstallerTranslator.getToolHome(InstallerTranslator.java:70)
+	at hudson.tools.ToolLocationNodeProperty.getToolHome(ToolLocationNodeProperty.java:109)
+	at hudson.tools.ToolInstallation.translateFor(ToolInstallation.java:221)
+	at hudson.model.JDK.forNode(JDK.java:150)
+	at hudson.model.AbstractProject.getEnvironment(AbstractProject.java:341)
+	at hudson.model.Run.getEnvironment(Run.java:2426)
+	at hudson.model.AbstractBuild.getEnvironment(AbstractBuild.java:957)
+	at hudson.tasks.CommandInterpreter.perform(CommandInterpreter.java:128)
+	at hudson.tasks.CommandInterpreter.perform(CommandInterpreter.java:92)
+	at hudson.tasks.BuildStepMonitor$1.perform(BuildStepMonitor.java:20)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.perform(AbstractBuild.java:818)
+	at hudson.model.Build$BuildExecution.build(Build.java:199)
+	at hudson.model.Build$BuildExecution.doRun(Build.java:164)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.run(AbstractBuild.java:526)
+	at hudson.model.Run.execute(Run.java:1893)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:44)
+	at hudson.model.ResourceController.execute(ResourceController.java:101)
+	at hudson.model.Executor.run(Executor.java:442)
+Build step 'Execute Windows batch command' marked build as failure
+Finished: FAILURE

@@ -1,0 +1,51 @@
+Started by timer
+Running as SYSTEM
+Building remotely on [8mha:////4LJnc56A+nEbGVJ6wWKjEQ8lWX6yiclaS8sjpMHDxvdJAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZ+/eT83ILSktQifT9/F9d4ACed0CHEAAAA[0mNODE_ (win11 chrome) in workspace C:\MyStudy\32\Testing\git-demo\laba05\slave\workspace\Bring It On
+FATAL: java.nio.channels.ClosedChannelException
+java.nio.channels.ClosedChannelException
+Also:   hudson.remoting.Channel$CallSiteStackTrace: Remote call to JNLP4-connect connection from kubernetes.docker.internal/127.0.0.1:61437
+		at hudson.remoting.Channel.attachCallSiteStackTrace(Channel.java:1787)
+		at hudson.remoting.Request.call(Request.java:199)
+		at hudson.remoting.Channel.call(Channel.java:1002)
+		at hudson.FilePath.act(FilePath.java:1226)
+		at hudson.FilePath.act(FilePath.java:1215)
+		at hudson.FilePath.mkdirs(FilePath.java:1406)
+		at hudson.model.AbstractProject.checkout(AbstractProject.java:1242)
+		at hudson.model.AbstractBuild$AbstractBuildExecution.defaultCheckout(AbstractBuild.java:649)
+		at jenkins.scm.SCMCheckoutStrategy.checkout(SCMCheckoutStrategy.java:85)
+		at hudson.model.AbstractBuild$AbstractBuildExecution.run(AbstractBuild.java:521)
+		at hudson.model.Run.execute(Run.java:1893)
+		at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:44)
+		at hudson.model.ResourceController.execute(ResourceController.java:101)
+		at hudson.model.Executor.run(Executor.java:442)
+Caused: hudson.remoting.RequestAbortedException
+	at hudson.remoting.Request.abort(Request.java:346)
+	at hudson.remoting.Channel.terminate(Channel.java:1083)
+	at org.jenkinsci.remoting.protocol.impl.ChannelApplicationLayer.onReadClosed(ChannelApplicationLayer.java:241)
+	at org.jenkinsci.remoting.protocol.ApplicationLayer.onRecvClosed(ApplicationLayer.java:221)
+	at org.jenkinsci.remoting.protocol.ProtocolStack$Ptr.onRecvClosed(ProtocolStack.java:825)
+	at org.jenkinsci.remoting.protocol.FilterLayer.onRecvClosed(FilterLayer.java:289)
+	at org.jenkinsci.remoting.protocol.impl.SSLEngineFilterLayer.onRecvClosed(SSLEngineFilterLayer.java:177)
+	at org.jenkinsci.remoting.protocol.impl.SSLEngineFilterLayer.switchToNoSecure(SSLEngineFilterLayer.java:279)
+	at org.jenkinsci.remoting.protocol.impl.SSLEngineFilterLayer.processWrite(SSLEngineFilterLayer.java:501)
+	at org.jenkinsci.remoting.protocol.impl.SSLEngineFilterLayer.processQueuedWrites(SSLEngineFilterLayer.java:244)
+	at org.jenkinsci.remoting.protocol.impl.SSLEngineFilterLayer.doSend(SSLEngineFilterLayer.java:196)
+	at org.jenkinsci.remoting.protocol.impl.SSLEngineFilterLayer.doCloseSend(SSLEngineFilterLayer.java:209)
+	at org.jenkinsci.remoting.protocol.ProtocolStack$Ptr.doCloseSend(ProtocolStack.java:793)
+	at org.jenkinsci.remoting.protocol.ApplicationLayer.doCloseWrite(ApplicationLayer.java:172)
+	at org.jenkinsci.remoting.protocol.impl.ChannelApplicationLayer$ByteBufferCommandTransport.closeWrite(ChannelApplicationLayer.java:343)
+	at hudson.remoting.Channel.close(Channel.java:1497)
+	at hudson.remoting.Channel.close(Channel.java:1450)
+	at hudson.slaves.SlaveComputer.closeChannel(SlaveComputer.java:949)
+	at hudson.slaves.SlaveComputer$2.run(SlaveComputer.java:823)
+	at jenkins.util.ContextResettingExecutorService$1.run(ContextResettingExecutorService.java:28)
+	at jenkins.security.ImpersonatingExecutorService$1.run(ImpersonatingExecutorService.java:68)
+	at jenkins.util.ErrorLoggingExecutorService.lambda$wrap$0(ErrorLoggingExecutorService.java:51)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+ERROR: Step ‘Archive the artifacts’ failed: no workspace for Bring It On #23
+ERROR: Step ‘Publish Cobertura Coverage Report’ failed: no workspace for Bring It On #23
+Finished: FAILURE

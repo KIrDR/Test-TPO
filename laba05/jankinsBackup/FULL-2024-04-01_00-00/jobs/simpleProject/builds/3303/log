@@ -1,0 +1,11 @@
+Started by timer
+Running as SYSTEM
+Building on the built-in node in workspace C:\ProgramData\Jenkins\.jenkins\workspace\simpleProject
+[simpleProject] $ cmd /c call C:\WINDOWS\TEMP\jenkins7100921156542120275.bat
+
+C:\ProgramData\Jenkins\.jenkins\workspace\simpleProject>ECHO Hello! 
+Hello!
+
+C:\ProgramData\Jenkins\.jenkins\workspace\simpleProject>exit 0 
+Triggering a new build of [8mha:////4GdDoWCVKpjzu6B1t2qUA0UyU9flUER+jE7g4EW3ffi4AAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgZ+/az8JP3gVKDqFC8gCwC5YXAJxAAAAA==[0mSecondJob
+Finished: SUCCESS
