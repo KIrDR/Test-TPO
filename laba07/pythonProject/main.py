@@ -49,15 +49,15 @@ def circumradius(side1, side2, side3):
         return -2
     return (side1 * side2 * side3) / (4 * area(side1, side2, side3))
 
-side1 = float(input("Введите длину первой стороны треугольника: "))
-side2 = float(input("Введите длину второй стороны треугольника: "))
-side3 = float(input("Введите длину третьей стороны треугольника: "))
+#side1 = float(input("Введите длину первой стороны треугольника: "))
+#side2 = float(input("Введите длину второй стороны треугольника: "))
+#side3 = float(input("Введите длину третьей стороны треугольника: "))
 
-if is_triangle(side1, side2, side3):
-    print("Из этих сторон можно построить треугольник.")
-    print("Его периметр: ", perimeter(side1, side2, side3))
-    print("Его площадь: ", area(side1, side2, side3))
-    print("Радиус вписанной окружности: ", inradius(side1, side2, side3))
-    print("Радиус описанной окружности: ", circumradius(side1, side2, side3))
-else:
-    print("Из этих сторон нельзя построить треугольник.")
+#if is_triangle(side1, side2, side3):
+#    print("Из этих сторон можно построить треугольник.")
+#    print("Его периметр: ", perimeter(side1, side2, side3))
+#    print("Его площадь: ", area(side1, side2, side3))
+#    print("Радиус вписанной окружности: ", inradius(side1, side2, side3))
+#    print("Радиус описанной окружности: ", circumradius(side1, side2, side3))
+#else:
+#    print("Из этих сторон нельзя построить треугольник.")
