@@ -46,7 +46,7 @@ class BookingLoginTest(unittest.TestCase):
         sign_in_submit_button.click()
 
 
-        expected_name = "Ваш аккаунт"
+        expected_name = "Your account"
         name_element = WebDriverWait(driver, 60).until(
             EC.visibility_of_element_located((By.CSS_SELECTOR, "div.a3332d346a.a6a383700c"))
         )
