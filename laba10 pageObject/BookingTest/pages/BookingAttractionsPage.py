@@ -25,7 +25,7 @@ class BookingAttractionsPage:
             EC.visibility_of_element_located((By.CLASS_NAME, "a53cbfa6de"))
         )
 
-        xpath_message_div = "//div[contains(@class, 'a53cbfa6de') and contains(@class, 'css-1jmzsfe'))]"
+        xpath_message_div = "//div[contains(@class, 'a53cbfa6de') and contains(@class, 'css-1jmzsfe') and contains(text(), 'Выберите хотя бы один билет для взрослого')]"
 
         # Ожидание появления элемента на странице
         message_div = WebDriverWait(self.driver, 10).until(
@@ -65,9 +65,7 @@ class BookingAttractionsPage:
         search_input.send_keys(query)
 
     def select_date(self, date: str):
-        """
-        Select a date in the format 'YYYY-MM-DD' from the calendar.
-        """
+
         day_element = WebDriverWait(self.driver, 10).until(
             EC.element_to_be_clickable((self.CALENDAR_DAY[0], self.CALENDAR_DAY[1].format(date=date)))
         )
