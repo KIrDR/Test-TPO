@@ -5,14 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="68fe6ee9-8a59-46c1-82d9-b30ec15bd8ce" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/BasePage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/Flights.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/StaysPage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/FlightSearchTest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/StaysSearchTest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../laba09/конспект.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../../laba09/конспект.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/BookingAttractionsPage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/MainPage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/AuthorizationTest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BirthDateTest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/ChildticketTest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../laba09/LICENSE.chromedriver" beforeDir="false" afterPath="$PROJECT_DIR$/../../laba09/LICENSE.chromedriver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../laba09/chromedriver.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../../laba09/chromedriver.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/StaysSearchTest.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/StaysSearchTest.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,20 +41,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python tests.Python tests for ChildticketTest.TestBookingAttractions.test_booking_attractions.executor": "Run",
+    "Python tests.Python tests in AuthorizationTest.py.executor": "Run",
+    "Python tests.Python tests in BirthDateTest.py.executor": "Run",
+    "Python tests.Python tests in ChildticketTest.py.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager">
+}]]></component>
+  <component name="RunManager" selected="Python tests.Python tests for ChildticketTest.TestBookingAttractions.test_booking_attractions">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="BookingTest" />
       <option name="ENV_FILES" value="" />
@@ -77,11 +82,31 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Python tests for ChildticketTest.TestBookingAttractions.test_booking_attractions" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="BookingTest" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;ChildticketTest.TestBookingAttractions.test_booking_attractions&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.Python tests for ChildticketTest.TestBookingAttractions.test_booking_attractions" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-50da183f06c8-2887949eec09-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-233.13135.95" />
+        <option value="bundled-python-sdk-09665e90c3a7-d3b881c8e49f-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-233.15026.15" />
       </set>
     </attachedChunks>
   </component>

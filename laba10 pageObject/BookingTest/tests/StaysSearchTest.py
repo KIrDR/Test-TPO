@@ -16,3 +16,5 @@ class TestStaysSearchTest(unittest.TestCase):
         self.BasePage = BasePage(self.driver)
         self.StaysPage = StaysPage(self)
         self.FlightsPage = FlightsPage(self.driver)
+
+
