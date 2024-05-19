@@ -33,7 +33,7 @@ class BookingAttractionsPage:
         )
 
     def first_product_card_click(self):
-        first_product_card = self.driver.find_element(By.XPATH, "//a[contains(text(), 'Обзорный круиз по городу')]")
+        first_product_card = self.driver.find_element(By.XPATH, "//a[contains(text(), 'City Sightseeing Cruise')]")
         first_product_card.click()
 
     def switch_page(self):
