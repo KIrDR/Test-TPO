@@ -25,7 +25,7 @@ class BookingAttractionsPage:
             EC.visibility_of_element_located((By.CLASS_NAME, "a53cbfa6de"))
         )
 
-        xpath_message_div = "//div[contains(@class, 'a53cbfa6de') and contains(@class, 'css-1jmzsfe') and contains(text(), 'Выберите хотя бы один билет для взрослого')]"
+        xpath_message_div = "//div[contains(@class, 'a53cbfa6de') and contains(@class, 'css-1jmzsfe'))]"
 
         # Ожидание появления элемента на странице
         message_div = WebDriverWait(self.driver, 10).until(
