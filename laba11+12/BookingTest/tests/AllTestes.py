@@ -167,7 +167,7 @@ class SubscribeTest(unittest.TestCase):
         time.sleep(3)
         actions = ActionChains(self.driver)
         actions.move_by_offset(10, 10).click().perform()
-        self.main_page.switch_language_to_english()
+        #self.main_page.switch_language_to_english()
         self.main_page.serf_page()
         self.main_page.serf_page()
         self.main_page.serf_page()
