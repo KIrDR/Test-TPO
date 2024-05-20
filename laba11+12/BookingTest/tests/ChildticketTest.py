@@ -16,10 +16,8 @@ class TestBookingAttractions(unittest.TestCase):
         self.booking_page = BookingAttractionsPage(self.driver)
 
     def test_booking_attractions(self):
-        # Клик по предопределенному Парижу
         self.booking_page.click_on_paris_image()
 
-        # Ожидание загрузки страницы
         WebDriverWait(self.driver, 10).until(
             EC.visibility_of_element_located((By.CLASS_NAME, "css-1t4p5ju"))
         )

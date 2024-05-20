@@ -40,7 +40,6 @@ class BookingAttractionsPage:
         tabs = self.driver.window_handles
         self.driver.switch_to.window(tabs[-1])
     def serf_page(self):
-
         self.driver.execute_script("window.scrollBy(0, window.innerHeight * 1.25);")
         time.sleep(3)
 

@@ -22,11 +22,16 @@ class MainPage:
         self.phone_input = (By.NAME, "phoneNumber")
         self.phone_error_message = (By.XPATH, "//div[contains(text(),'Введите действительный номер телефона и код страны')]")
 
+
     def click_sign_in_button(self):
         WebDriverWait(self.driver, 60).until(EC.element_to_be_clickable(self.sign_in_button)).click()
 
     def enter_email(self, email):
         WebDriverWait(self.driver, 60).until(EC.visibility_of_element_located(self.email_input)).send_keys(email)
+
+    def serf_page(self):
+        self.driver.execute_script("window.scrollBy(0, window.innerHeight );")
+
 
     def click_continue_button(self):
         WebDriverWait(self.driver, 60).until(EC.element_to_be_clickable(self.continue_button)).click()
@@ -48,6 +53,64 @@ class MainPage:
 
     def click_personal_details_button(self):
         WebDriverWait(self.driver, 60).until(EC.element_to_be_clickable(self.personal_details_button)).click()
+
+    def click_send_email(self):
+        conditions = [
+            (By.ID, "newsletter_button_footer"),
+            (By.XPATH,
+             "//button[@data-et-click='goal:www_subscribe_deals_footer_button_click HMeBLZeJbSFSPaMNbJOEcaMEAfRXe:3']"),
+            (By.XPATH, "//button[text()='Subscribe']")
+        ]
+
+        subscribe_button = None
+        for condition in conditions:
+            try:
+                subscribe_button = WebDriverWait(self.driver, 10).until(
+                    EC.element_to_be_clickable(condition)
+                )
+                if subscribe_button:
+                    break
+            except:
+                continue
+
+        if subscribe_button:
+            subscribe_button.click()
+    def send_email(self, email):
+        conditions = [
+            (By.ID, "newsletter_to"),
+            (By.NAME, "to"),
+            (By.CLASS_NAME, "input_newsletter_subscription_to"),
+            (By.XPATH, "//input[@placeholder='Your email address']")
+        ]
+
+        email_input = None
+        for condition in conditions:
+            try:
+                email_input = WebDriverWait(self.driver, 10).until(
+                    EC.presence_of_element_located(condition)
+                )
+                if email_input:
+                    break
+            except:
+                continue
+
+        if email_input:
+            email_input.clear()
+            email_input.send_keys(email)
+
+    def switch_language_to_english(self):
+
+        language_button = WebDriverWait(self.driver, 10).until(
+            EC.element_to_be_clickable((By.XPATH, "//button[@data-testid='header-language-picker-trigger']"))
+        )
+        language_button.click()
+
+
+        english_option = WebDriverWait(self.driver, 10).until(
+            EC.element_to_be_clickable(
+                (By.XPATH, "//button[@data-testid='selection-item']//span[text()='English (US)']"))
+        )
+        english_option.click()
 
     def click_edit_birth_date_button(self):
         WebDriverWait(self.driver, 60).until(EC.element_to_be_clickable(self.edit_birth_date_button)).click()
